@@ -1,7 +1,7 @@
-export default function Hej(){
+export default function Hej({navn}){
     return(
         <>
-            <h2>hej med dig</h2>
+            <h2>hej med dig, {navn}</h2>
         </>
     )
 }
